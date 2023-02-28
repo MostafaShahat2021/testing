@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "write a few practical tests for JavaScript functions using the Jest library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MostafaShahat2021/testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MostafaShahat2021/testing/issues"
+  },
+  "homepage": "https://github.com/MostafaShahat2021/testing#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
