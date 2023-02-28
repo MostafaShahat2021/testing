@@ -37,4 +37,10 @@ class Calculator {
     return a / b;
   }
 }
-module.exports = { strlength, reverseString, Calculator };
+
+// Task-4
+const capitalize = (string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+module.exports = { strlength, reverseString, Calculator, capitalize };

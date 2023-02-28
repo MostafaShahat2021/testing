@@ -1,4 +1,4 @@
-const { strlength, reverseString, Calculator } = require('./string')
+const { strlength, reverseString, Calculator, capitalize } = require('./string')
 // Task 1
 test('char count', () => {
   expect(strlength('mostafa')).toBe(7)
@@ -73,4 +73,12 @@ test('divides a positive by a negative number', () => {
 
 test('throws an error when dividing by zero', () => {
   expect(() => new Calculator().divide(6, 0)).toThrow(Error);
+});
+
+// Task-4
+test('capitalize first letter', () => {
+  const input = 'hello world';
+  const Output = 'Hello world';
+  const result = capitalize(input);
+  expect(result).toBe(Output);
 });
