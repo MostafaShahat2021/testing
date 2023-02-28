@@ -10,4 +10,9 @@ const strlength = (str) => {
   }
   // console.log(strlength('char'));
 
-  module.exports = strlength;
+   // // Task 2
+const reverseString = (str) => {
+  return str.split('').reverse().join('');
+}
+
+  module.exports = { strlength, reverseString };
